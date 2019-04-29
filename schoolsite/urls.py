@@ -21,4 +21,4 @@ admin.autodiscover()
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^$', include('blog.urls')),
-]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+]

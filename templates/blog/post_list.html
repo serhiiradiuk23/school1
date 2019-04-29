@@ -1,0 +1,44 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    {% for post in object_list %}
+<!-- Section: Personal card -->
+
+<section class="my-5">
+
+  <!-- Grid row -->
+  <div class="row">
+
+    <!-- Grid column -->
+    <div class="col-md-6 col-lg-4">
+
+      <!-- Card -->
+      <div class="card card-personal">
+        <!-- Card content -->
+        <div class="card-body">
+          <!-- Title-->
+          <a>
+            <h4 class="card-title title-one">{{ post.title }}</h4>
+          </a>
+          <p class="card-meta">{{ post.datetime }}</p>
+          <!-- Text -->
+          <p class="card-text">{{ post.content }}</p>
+          
+        </div>
+        <!-- Card content -->
+
+      </div>
+      <!-- Card -->
+
+    </div>
+    <!-- Grid column -->
+
+  </div>
+  <!-- Grid row --> 
+
+</section>
+<!-- Section: Personal card -->
+
+    {% endfor %}
+
+{% endblock %}
+

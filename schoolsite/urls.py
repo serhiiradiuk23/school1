@@ -20,5 +20,5 @@ admin.autodiscover()
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path(r'^$', include('blog.urls')),
+    path('', include('blog.urls')),
 ]

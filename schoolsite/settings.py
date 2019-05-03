@@ -25,10 +25,8 @@ SECRET_KEY = '_3pzjx9h(5%3^dyt)#^hwai*tz9z%^co564+#0mc8m=s=-jh-#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-<<<<<<< HEAD
-=======
 ALLOWED_HOSTS = ['*']
->>>>>>> 91538c87b632eff2174d3995a471c9d65f3d1bd0
+
 
 
 # Application definition
@@ -122,10 +120,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 91538c87b632eff2174d3995a471c9d65f3d1bd0
 STATIC_URL = '/school1.pythonanywhere.com/static/'
 # SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
 STATIC_ROOT = os.path.join(STATIC_URL, 'static')

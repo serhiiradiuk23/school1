@@ -1,18 +1,18 @@
 {% extends "blog/base.html" %}
 {% block content %}
     {% for post in object_list %}
-<!-- Section: Personal card -->
-
 <section class="my-5">
+
+<div class="container">
 
   <!-- Grid row -->
   <div class="row">
 
     <!-- Grid column -->
-    <div class="col-md-6 col-lg-4">
+    <div class="col-md-12 col-lg-12">
 
       <!-- Card -->
-      <div class="card card-personal">
+      <div class="card card-personal text-center">
         <!-- Card content -->
         <div class="card-body">
           <!-- Title-->
@@ -33,10 +33,11 @@
     <!-- Grid column -->
 
   </div>
-  <!-- Grid row --> 
+  <!-- Grid row -->
+
+</div>
 
 </section>
-<!-- Section: Personal card -->
 
     {% endfor %}
 
